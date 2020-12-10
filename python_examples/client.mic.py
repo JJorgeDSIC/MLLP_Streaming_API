@@ -42,13 +42,17 @@ def myStreamIterator():
     stream.stop_stream()
     stream.close()
     p.terminate()
-    
+
+es_system = {}
 
 #Select Spanish system for testing
 for system in systems:
     if system['info']['langs'][0]['code'] == "es":
         es_system = system    
 
+if es_system == {}:
+    raise Exception("Spanish system not found") 
+        
 #Selects the system with the system id for the Spanish system, updated in Feb20
 for resp in cli.transcribe(es_system, myStreamIterator):
     # Hyp_var contains part of the hypothesis that is not consolidated yet (hypothesis could change)
