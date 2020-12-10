@@ -62,10 +62,10 @@ python3 python_examples/client.mic.py
 ## Detailed documentation (login required):
 
 
-* [Streaming service API](https://ttp.mllp.upv.es/index.php?page=api)
+* [Streaming service API](https://ttp.mllp.upv.es/index.php?page=api) (login required)
 * [Python API client](https://ttp.mllp.upv.es/mllp-streaming-api/MLLPStreamingClient.html)
 
 ## Contact and support
 
-Email: mllp-support@upv.es
+mail: mllp-support@upv.es
 
