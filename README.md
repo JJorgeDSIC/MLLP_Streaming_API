@@ -1,8 +1,10 @@
-# Streaming API example 1.0
+# [MLLP](https://www.mllp.upv.es/) Streaming API example
 
-Streaming API example, tested in Ubuntu 16.04 and Python3.6
+This repository contains some examples of client code to use the [MLLP](https://www.mllp.upv.es/) Streaming Speech Recognition API
 
 ## Setup and installation
+
+Streaming API example, tested in Ubuntu 16.04 and Python3.6
 
 System dependencies:
 
@@ -60,7 +62,6 @@ python3 python_examples/client.mic.py
 ```
 
 ## Detailed documentation (login required):
-
 
 * [Streaming service API](https://ttp.mllp.upv.es/index.php?page=api) (login required)
 * [Python API client](https://ttp.mllp.upv.es/mllp-streaming-api/MLLPStreamingClient.html)
