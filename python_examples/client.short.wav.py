@@ -23,6 +23,8 @@ def main(wav):
             while data != b"":
                 yield data
                 data = fd.read(250)
+                #Some delay to simulate mic input...
+                time.sleep(0.0078125)
 
     es_system = {}
 
